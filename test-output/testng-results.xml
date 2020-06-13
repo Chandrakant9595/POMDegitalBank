@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="93448" started-at="2020-06-12T20:25:49 IST" finished-at="2020-06-12T20:27:23 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="93448" started-at="2020-06-12T20:25:49 IST" finished-at="2020-06-12T20:27:23 IST">
+      <class name="com.db.qa.testCases.NewCheckingPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.db.qa.testCases.NewCheckingPageTest@56f20]" name="setUp" is-config="true" duration-ms="19039" started-at="2020-06-12T20:25:49 IST" finished-at="2020-06-12T20:26:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateNewCheckingPageURL()[pri:1, instance:com.db.qa.testCases.NewCheckingPageTest@56f20]" name="validateNewCheckingPageURL" duration-ms="58" started-at="2020-06-12T20:26:08 IST" finished-at="2020-06-12T20:26:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNewCheckingPageURL -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.db.qa.testCases.NewCheckingPageTest@56f20]" name="tearDown" is-config="true" duration-ms="634" started-at="2020-06-12T20:26:08 IST" finished-at="2020-06-12T20:26:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.db.qa.testCases.NewCheckingPageTest@56f20]" name="setUp" is-config="true" duration-ms="19770" started-at="2020-06-12T20:26:09 IST" finished-at="2020-06-12T20:26:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateTheText()[pri:2, instance:com.db.qa.testCases.NewCheckingPageTest@56f20]" name="validateTheText" duration-ms="84" started-at="2020-06-12T20:26:29 IST" finished-at="2020-06-12T20:26:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTheText -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.db.qa.testCases.NewCheckingPageTest@56f20]" name="tearDown" is-config="true" duration-ms="623" started-at="2020-06-12T20:26:29 IST" finished-at="2020-06-12T20:26:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.db.qa.testCases.NewCheckingPageTest@56f20]" name="setUp" is-config="true" duration-ms="19053" started-at="2020-06-12T20:26:30 IST" finished-at="2020-06-12T20:26:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addNewChecking(java.lang.String, java.lang.String)[pri:3, instance:com.db.qa.testCases.NewCheckingPageTest@56f20]" name="addNewChecking" duration-ms="7179" started-at="2020-06-12T20:26:49 IST" data-provider="getDataFromExcel" finished-at="2020-06-12T20:26:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AAA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[200.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewChecking -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.db.qa.testCases.NewCheckingPageTest@56f20]" name="tearDown" is-config="true" duration-ms="655" started-at="2020-06-12T20:26:57 IST" finished-at="2020-06-12T20:26:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.db.qa.testCases.NewCheckingPageTest@56f20]" name="setUp" is-config="true" duration-ms="18385" started-at="2020-06-12T20:26:57 IST" finished-at="2020-06-12T20:27:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addNewChecking(java.lang.String, java.lang.String)[pri:3, instance:com.db.qa.testCases.NewCheckingPageTest@56f20]" name="addNewChecking" duration-ms="6197" started-at="2020-06-12T20:27:16 IST" data-provider="getDataFromExcel" finished-at="2020-06-12T20:27:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BBB]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[300.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewChecking -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.db.qa.testCases.NewCheckingPageTest@56f20]" name="tearDown" is-config="true" duration-ms="623" started-at="2020-06-12T20:27:22 IST" finished-at="2020-06-12T20:27:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.db.qa.testCases.NewCheckingPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
