@@ -4,7 +4,8 @@
 
   <test name="Degital Bank" >
     <classes>
-       <class name="com.ECom.qa.testcases.RegisterPageTest" />
+       <class name="com.db.qa.testCases.LoginPageTest" />
+       <class name="com.db.qa.testCases.NewCheckingPageTest" />
     </classes>
   </test>
 </suite>
