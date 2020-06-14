@@ -8,6 +8,8 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.db.qa.base.TestBase;
 
+import io.qameta.allure.Step;
+
 public class LoginPage extends TestBase{
 
 	@FindBy(xpath = "//input[@name='username']")
@@ -27,15 +29,17 @@ public class LoginPage extends TestBase{
 	}
 	
 	
-	
+	@Step("Getting login page URL step...")
 	public String validateLoginPageURL() {
 		return driver.getCurrentUrl();	
 	}
 	
+	@Step("Getting login page title step...")
 	public String validateLoginPageTitle() {
 		return driver.getTitle();
 	}
 
+	@Step("Login with username: {0} and password: {1} step...")
 	public HomePage loginFunctionality(String un, String pass) throws IOException {
 		userName.clear();
 		userName.sendKeys(un);

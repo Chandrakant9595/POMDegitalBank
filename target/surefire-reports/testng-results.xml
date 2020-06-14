@@ -2,44 +2,44 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Degital Bank" duration-ms="38238" started-at="2020-06-14T12:25:25 IST" finished-at="2020-06-14T12:26:03 IST">
+  <suite name="Degital Bank" duration-ms="49681" started-at="2020-06-14T16:51:14 IST" finished-at="2020-06-14T16:52:04 IST">
     <groups>
     </groups>
-    <test name="Degital Bank" duration-ms="38238" started-at="2020-06-14T12:25:25 IST" finished-at="2020-06-14T12:26:03 IST">
+    <test name="Degital Bank" duration-ms="49681" started-at="2020-06-14T16:51:14 IST" finished-at="2020-06-14T16:52:04 IST">
       <class name="com.db.qa.testCases.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.db.qa.testCases.LoginPageTest@1b9a632]" name="setUp" is-config="true" duration-ms="12553" started-at="2020-06-14T12:25:25 IST" finished-at="2020-06-14T12:25:37 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.db.qa.testCases.LoginPageTest@9bf9eb]" name="setUp" is-config="true" duration-ms="20389" started-at="2020-06-14T16:51:14 IST" finished-at="2020-06-14T16:51:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validatePageURL()[pri:1, instance:com.db.qa.testCases.LoginPageTest@1b9a632]" name="validatePageURL" duration-ms="72" started-at="2020-06-14T12:25:38 IST" finished-at="2020-06-14T12:25:38 IST">
+        <test-method status="PASS" signature="validatePageURL()[pri:1, instance:com.db.qa.testCases.LoginPageTest@9bf9eb]" name="validatePageURL" duration-ms="79" started-at="2020-06-14T16:51:35 IST" description="Validate the login page URL test" finished-at="2020-06-14T16:51:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatePageURL -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.db.qa.testCases.LoginPageTest@1b9a632]" name="tearDown" is-config="true" duration-ms="578" started-at="2020-06-14T12:25:38 IST" finished-at="2020-06-14T12:25:38 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.db.qa.testCases.LoginPageTest@9bf9eb]" name="tearDown" is-config="true" duration-ms="626" started-at="2020-06-14T16:51:35 IST" finished-at="2020-06-14T16:51:36 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.db.qa.testCases.LoginPageTest@1b9a632]" name="setUp" is-config="true" duration-ms="9129" started-at="2020-06-14T12:25:38 IST" finished-at="2020-06-14T12:25:47 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.db.qa.testCases.LoginPageTest@9bf9eb]" name="setUp" is-config="true" duration-ms="10153" started-at="2020-06-14T16:51:36 IST" finished-at="2020-06-14T16:51:46 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validatePageTitle()[pri:2, instance:com.db.qa.testCases.LoginPageTest@1b9a632]" name="validatePageTitle" duration-ms="14" started-at="2020-06-14T12:25:47 IST" finished-at="2020-06-14T12:25:47 IST">
+        <test-method status="PASS" signature="validatePageTitle()[pri:2, instance:com.db.qa.testCases.LoginPageTest@9bf9eb]" name="validatePageTitle" duration-ms="14" started-at="2020-06-14T16:51:46 IST" description="Validate the login page title" finished-at="2020-06-14T16:51:46 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatePageTitle -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.db.qa.testCases.LoginPageTest@1b9a632]" name="tearDown" is-config="true" duration-ms="656" started-at="2020-06-14T12:25:47 IST" finished-at="2020-06-14T12:25:48 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.db.qa.testCases.LoginPageTest@9bf9eb]" name="tearDown" is-config="true" duration-ms="667" started-at="2020-06-14T16:51:46 IST" finished-at="2020-06-14T16:51:47 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.db.qa.testCases.LoginPageTest@1b9a632]" name="setUp" is-config="true" duration-ms="8573" started-at="2020-06-14T12:25:48 IST" finished-at="2020-06-14T12:25:57 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.db.qa.testCases.LoginPageTest@9bf9eb]" name="setUp" is-config="true" duration-ms="9777" started-at="2020-06-14T16:51:47 IST" finished-at="2020-06-14T16:51:56 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.db.qa.testCases.LoginPageTest@1b9a632]" name="loginTest" duration-ms="5744" started-at="2020-06-14T12:25:57 IST" finished-at="2020-06-14T12:26:02 IST">
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.db.qa.testCases.LoginPageTest@9bf9eb]" name="loginTest" duration-ms="5376" started-at="2020-06-14T16:51:56 IST" description="Validate the login functionality" finished-at="2020-06-14T16:52:02 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.db.qa.testCases.LoginPageTest@1b9a632]" name="tearDown" is-config="true" duration-ms="640" started-at="2020-06-14T12:26:02 IST" finished-at="2020-06-14T12:26:03 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.db.qa.testCases.LoginPageTest@9bf9eb]" name="tearDown" is-config="true" duration-ms="2182" started-at="2020-06-14T16:52:02 IST" finished-at="2020-06-14T16:52:04 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
