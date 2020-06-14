@@ -1,125 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Degital Bank" duration-ms="240150" started-at="2020-06-14T11:46:00 IST" finished-at="2020-06-14T11:50:00 IST">
+  <suite name="Degital Bank" duration-ms="36824" started-at="2020-06-14T12:06:16 IST" finished-at="2020-06-14T12:06:53 IST">
     <groups>
     </groups>
-    <test name="Degital Bank" duration-ms="240150" started-at="2020-06-14T11:46:00 IST" finished-at="2020-06-14T11:50:00 IST">
-      <class name="com.db.qa.testCases.DepositPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.db.qa.testCases.DepositPageTest@a7c7e0]" name="setUp" is-config="true" duration-ms="20811" started-at="2020-06-14T11:46:45 IST" finished-at="2020-06-14T11:47:06 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyDepositURLTest()[pri:1, instance:com.db.qa.testCases.DepositPageTest@a7c7e0]" name="verifyDepositURLTest" duration-ms="14" started-at="2020-06-14T11:47:06 IST" finished-at="2020-06-14T11:47:06 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyDepositURLTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.db.qa.testCases.DepositPageTest@a7c7e0]" name="tearDown" is-config="true" duration-ms="1130" started-at="2020-06-14T11:47:06 IST" finished-at="2020-06-14T11:47:07 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.db.qa.testCases.DepositPageTest@a7c7e0]" name="setUp" is-config="true" duration-ms="17547" started-at="2020-06-14T11:47:07 IST" finished-at="2020-06-14T11:47:25 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyTextTest()[pri:2, instance:com.db.qa.testCases.DepositPageTest@a7c7e0]" name="verifyTextTest" duration-ms="52" started-at="2020-06-14T11:47:25 IST" finished-at="2020-06-14T11:47:25 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTextTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.db.qa.testCases.DepositPageTest@a7c7e0]" name="tearDown" is-config="true" duration-ms="614" started-at="2020-06-14T11:47:25 IST" finished-at="2020-06-14T11:47:25 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.db.qa.testCases.DepositPageTest@a7c7e0]" name="setUp" is-config="true" duration-ms="18237" started-at="2020-06-14T11:47:25 IST" finished-at="2020-06-14T11:47:44 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="addDepositInToAccount()[pri:3, instance:com.db.qa.testCases.DepositPageTest@a7c7e0]" name="addDepositInToAccount" duration-ms="37422" started-at="2020-06-14T11:47:44 IST" finished-at="2020-06-14T11:48:21 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addDepositInToAccount -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.db.qa.testCases.DepositPageTest@a7c7e0]" name="tearDown" is-config="true" duration-ms="642" started-at="2020-06-14T11:48:21 IST" finished-at="2020-06-14T11:48:22 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.db.qa.testCases.DepositPageTest -->
+    <test name="Degital Bank" duration-ms="36824" started-at="2020-06-14T12:06:16 IST" finished-at="2020-06-14T12:06:53 IST">
       <class name="com.db.qa.testCases.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.db.qa.testCases.LoginPageTest@1622f1b]" name="setUp" is-config="true" duration-ms="15733" started-at="2020-06-14T11:46:00 IST" finished-at="2020-06-14T11:46:16 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.db.qa.testCases.LoginPageTest@10f1802]" name="setUp" is-config="true" duration-ms="10503" started-at="2020-06-14T12:06:16 IST" finished-at="2020-06-14T12:06:27 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validatePageURL()[pri:1, instance:com.db.qa.testCases.LoginPageTest@1622f1b]" name="validatePageURL" duration-ms="51" started-at="2020-06-14T11:46:16 IST" finished-at="2020-06-14T11:46:16 IST">
+        <test-method status="PASS" signature="validatePageURL()[pri:1, instance:com.db.qa.testCases.LoginPageTest@10f1802]" name="validatePageURL" duration-ms="54" started-at="2020-06-14T12:06:27 IST" finished-at="2020-06-14T12:06:27 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatePageURL -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.db.qa.testCases.LoginPageTest@1622f1b]" name="tearDown" is-config="true" duration-ms="650" started-at="2020-06-14T11:46:16 IST" finished-at="2020-06-14T11:46:17 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.db.qa.testCases.LoginPageTest@10f1802]" name="tearDown" is-config="true" duration-ms="640" started-at="2020-06-14T12:06:27 IST" finished-at="2020-06-14T12:06:28 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.db.qa.testCases.LoginPageTest@1622f1b]" name="setUp" is-config="true" duration-ms="10447" started-at="2020-06-14T11:46:17 IST" finished-at="2020-06-14T11:46:27 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.db.qa.testCases.LoginPageTest@10f1802]" name="setUp" is-config="true" duration-ms="9040" started-at="2020-06-14T12:06:28 IST" finished-at="2020-06-14T12:06:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validatePageTitle()[pri:2, instance:com.db.qa.testCases.LoginPageTest@1622f1b]" name="validatePageTitle" duration-ms="14" started-at="2020-06-14T11:46:27 IST" finished-at="2020-06-14T11:46:27 IST">
+        <test-method status="PASS" signature="validatePageTitle()[pri:2, instance:com.db.qa.testCases.LoginPageTest@10f1802]" name="validatePageTitle" duration-ms="17" started-at="2020-06-14T12:06:37 IST" finished-at="2020-06-14T12:06:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatePageTitle -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.db.qa.testCases.LoginPageTest@1622f1b]" name="tearDown" is-config="true" duration-ms="684" started-at="2020-06-14T11:46:27 IST" finished-at="2020-06-14T11:46:28 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.db.qa.testCases.LoginPageTest@10f1802]" name="tearDown" is-config="true" duration-ms="683" started-at="2020-06-14T12:06:37 IST" finished-at="2020-06-14T12:06:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.db.qa.testCases.LoginPageTest@1622f1b]" name="setUp" is-config="true" duration-ms="10576" started-at="2020-06-14T11:46:28 IST" finished-at="2020-06-14T11:46:39 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.db.qa.testCases.LoginPageTest@10f1802]" name="setUp" is-config="true" duration-ms="9444" started-at="2020-06-14T12:06:37 IST" finished-at="2020-06-14T12:06:47 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.db.qa.testCases.LoginPageTest@1622f1b]" name="loginTest" duration-ms="5751" started-at="2020-06-14T11:46:39 IST" finished-at="2020-06-14T11:46:44 IST">
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.db.qa.testCases.LoginPageTest@10f1802]" name="loginTest" duration-ms="5546" started-at="2020-06-14T12:06:47 IST" finished-at="2020-06-14T12:06:52 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.db.qa.testCases.LoginPageTest@1622f1b]" name="tearDown" is-config="true" duration-ms="639" started-at="2020-06-14T11:46:44 IST" finished-at="2020-06-14T11:46:45 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.db.qa.testCases.LoginPageTest@10f1802]" name="tearDown" is-config="true" duration-ms="671" started-at="2020-06-14T12:06:52 IST" finished-at="2020-06-14T12:06:53 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.db.qa.testCases.LoginPageTest -->
-      <class name="com.db.qa.testCases.WithdrawPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.db.qa.testCases.WithdrawPageTest@4b8173]" name="setUp" is-config="true" duration-ms="19058" started-at="2020-06-14T11:48:22 IST" finished-at="2020-06-14T11:48:41 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="withdrawPageURLTest()[pri:1, instance:com.db.qa.testCases.WithdrawPageTest@4b8173]" name="withdrawPageURLTest" duration-ms="18" started-at="2020-06-14T11:48:41 IST" finished-at="2020-06-14T11:48:41 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- withdrawPageURLTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.db.qa.testCases.WithdrawPageTest@4b8173]" name="tearDown" is-config="true" duration-ms="614" started-at="2020-06-14T11:48:41 IST" finished-at="2020-06-14T11:48:41 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.db.qa.testCases.WithdrawPageTest@4b8173]" name="setUp" is-config="true" duration-ms="17940" started-at="2020-06-14T11:48:41 IST" finished-at="2020-06-14T11:48:59 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyTextOnWithdwarPageTest()[pri:2, instance:com.db.qa.testCases.WithdrawPageTest@4b8173]" name="verifyTextOnWithdwarPageTest" duration-ms="54" started-at="2020-06-14T11:48:59 IST" finished-at="2020-06-14T11:48:59 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTextOnWithdwarPageTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.db.qa.testCases.WithdrawPageTest@4b8173]" name="tearDown" is-config="true" duration-ms="632" started-at="2020-06-14T11:48:59 IST" finished-at="2020-06-14T11:49:00 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.db.qa.testCases.WithdrawPageTest@4b8173]" name="setUp" is-config="true" duration-ms="23117" started-at="2020-06-14T11:49:00 IST" finished-at="2020-06-14T11:49:23 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyWithdrawFromAccountTest()[pri:3, instance:com.db.qa.testCases.WithdrawPageTest@4b8173]" name="verifyWithdrawFromAccountTest" duration-ms="36743" started-at="2020-06-14T11:49:23 IST" finished-at="2020-06-14T11:50:00 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyWithdrawFromAccountTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.db.qa.testCases.WithdrawPageTest@4b8173]" name="tearDown" is-config="true" duration-ms="662" started-at="2020-06-14T11:50:00 IST" finished-at="2020-06-14T11:50:00 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.db.qa.testCases.WithdrawPageTest -->
     </test> <!-- Degital Bank -->
   </suite> <!-- Degital Bank -->
 </testng-results>
