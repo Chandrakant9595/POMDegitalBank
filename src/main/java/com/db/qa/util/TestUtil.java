@@ -62,6 +62,6 @@ public class TestUtil extends TestBase{
 	
 	public static void scrollPage() {
 		js = (JavascriptExecutor)driver;
-		js.executeScript("window.scrollBy(0,400)");
+		js.executeScript("window.scrollBy(0,500)");
 	}
 }

@@ -22,6 +22,15 @@ public class HomePage extends TestBase{
 	@FindBy(xpath = "//a[text()='New Savings']")
 	WebElement newSavingsLink;
 	
+	@FindBy(xpath = "//a[text()='Transactions']")
+	WebElement transactionsLink;
+	
+	@FindBy(xpath = "//a[text()='Deposit']")
+	WebElement depositLink;
+	
+	@FindBy(xpath = "//a[text()='Withdraw']")
+	WebElement withdrawtLink;
+	
 	public HomePage() throws IOException {
 		super();
 		PageFactory.initElements(driver, this);
@@ -37,5 +46,17 @@ public class HomePage extends TestBase{
 		savingsLink.click();
 		newSavingsLink.click();
 		return new NewSavingAccountPage();
+	}
+
+	public DepositPage clickOnDepositLink() throws IOException {
+		transactionsLink.click();
+		depositLink.click();
+		return new DepositPage();
+	}
+	
+	public WithdrawPage clickOnWithdrawLink() throws IOException {
+		transactionsLink.click();
+		withdrawtLink.click();
+		return new WithdrawPage();
 	}
 }

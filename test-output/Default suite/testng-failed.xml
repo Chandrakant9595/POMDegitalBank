@@ -3,13 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.db.qa.testCases.NewCheckingPageTest">
+      <class name="com.db.qa.testCases.WithdrawPageTest">
         <methods>
-          <include name="addNewChecking" invocation-numbers="0 1"/>
           <include name="tearDown"/>
+          <include name="withdrawPageURLTest"/>
           <include name="setUp"/>
+          <include name="verifyTextOnWithdwarPageTest"/>
         </methods>
-      </class> <!-- com.db.qa.testCases.NewCheckingPageTest -->
+      </class> <!-- com.db.qa.testCases.WithdrawPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
