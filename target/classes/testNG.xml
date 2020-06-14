@@ -1,14 +1,19 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-  
-<suite name="Degital Bank" verbose="1" >
 
-  <test name="Degital Bank" >
-    <classes>
-       <class name="com.db.qa.testCases.LoginPageTest" />
-       <class name="com.db.qa.testCases.NewCheckingPageTest" />
-       <class name="com.db.qa.testCases.NewSavingPageTest" />
-       <class name="com.db.qa.testCases.DepositPageTest" />
-       <class name="com.db.qa.testCases.WithdrawPageTest" />
-    </classes>
-  </test>
+<suite name="Degital Bank" verbose="1">
+
+	<listeners>
+		<listener
+			class-name="com.db.qa.extentReportListener.ExtentReportListenar"></listener>
+	</listeners>
+
+	<test name="Degital Bank">
+		<classes>
+			<class name="com.db.qa.testCases.LoginPageTest" />
+			<!-- <class name="com.db.qa.testCases.NewCheckingPageTest" />
+			<class name="com.db.qa.testCases.NewSavingPageTest" /> -->
+			<class name="com.db.qa.testCases.DepositPageTest" />
+			<class name="com.db.qa.testCases.WithdrawPageTest" />
+		</classes>
+	</test>
 </suite>
