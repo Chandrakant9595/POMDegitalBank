@@ -1,0 +1,5 @@
+com\db\qa\testCases\NewSavingPageTest.class
+com\db\qa\testCases\WithdrawPageTest.class
+com\db\qa\testCases\DepositPageTest.class
+com\db\qa\testCases\NewCheckingPageTest.class
+com\db\qa\testCases\LoginPageTest.class
